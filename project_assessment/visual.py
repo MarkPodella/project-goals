@@ -52,3 +52,4 @@ def render():
         net = render_network(g)
         html = net.generate_html(notebook=False)
         st.components.v1.html(html, height=650, scrolling=True)
+        

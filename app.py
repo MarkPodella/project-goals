@@ -22,3 +22,4 @@ if mode == "Project Assessment":
     render_assessment()
 else:
     st.info("Unknown mode.")
+    

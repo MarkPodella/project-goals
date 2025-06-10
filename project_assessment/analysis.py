@@ -52,3 +52,4 @@ def render():
             st.markdown(f"- {r}")
     else:
         st.info("No recommendations based on current rules.")
+        

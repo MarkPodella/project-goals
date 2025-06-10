@@ -1,5 +1,7 @@
+import json
 import re
-from typing import List
+from typing import List, Dict
+from pathlib import Path
 import yaml
 from project_assessment.helper.data_model import Node
 
@@ -18,3 +20,10 @@ def get_recommendations(nodes: List[Node], rules: List[dict]) -> List[str]:
             if pattern and re.search(pattern, n.name, re.I) and n.status == "red":
                 recs.append(f"**{n.name}** → {rule.get('action')}")
     return recs
+
+def load_recommendations(path: str | Path) -> Dict[str, List[str]]:
+    """Load recommendations from a JSON file."""
+    path = Path(path)
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+    

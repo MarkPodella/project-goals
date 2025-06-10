@@ -28,3 +28,4 @@ class Node:
     @classmethod
     def from_dict(cls, data):
         return cls(**data)
+    

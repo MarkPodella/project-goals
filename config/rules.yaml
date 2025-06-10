@@ -18,3 +18,4 @@
   action: "Empfehlung: Erstelle einen Kommunikationsplan für Stakeholder und plane regelmäßige Statusupdates."
 - match: "Reporting"
   action: "Empfehlung: Automatisiere wöchentliche Reports mit KPIs zu Nutzung und Fortschritt."
+  
