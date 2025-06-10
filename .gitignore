@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Vectorstore / Model Files
+*.faiss
+*.pkl
+*.bin
+index/
+
+# Jupyter & Logs
+*.ipynb
+*.log
+
+# Export-/Testdaten
+*.json
+zielstruktur_export.json

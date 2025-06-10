@@ -1,0 +1,27 @@
+5-Whys:
+  - Warum 1? 
+  - Warum 2? 
+  - Warum 3? 
+  - Warum 4?
+  - Warum 5?
+Welche Prozesse sind betroffen?:
+  - Prozesse in der IT? 
+  - Prozesse im Business? 
+  - Weitere Prozesse?
+Welche Systeme sind betroffen?:
+  - Infrastrukur? 
+  - Netzwerk? 
+  - Server?
+  - Clients? 
+  - Sind die benötigten Tools verfügbar?
+  - Gibt es Integrationsrisiken?
+Welche Personengruppen sind betroffen?:
+  - Sind alle Stakeholder eingebunden?
+  - Ist das Team ausreichend qualifiziert?
+  - Gibt es geeignete Kommunikationsmechanismen?
+  - Nutzergruppen?
+Projektmanagement:
+  - Projektplan vorhanden? 
+  - Change Register vorhanden? 
+  - Risikoregister vorhanden?
+  - Sind Sicherheits- und Compliance-Anforderungen geklärt?
