@@ -1,27 +1,50 @@
-5-Whys:
-  - Warum 1? 
-  - Warum 2? 
-  - Warum 3? 
-  - Warum 4?
-  - Warum 5?
-Welche Prozesse sind betroffen?:
-  - Prozesse in der IT? 
-  - Prozesse im Business? 
-  - Weitere Prozesse?
-Welche Systeme sind betroffen?:
-  - Infrastrukur? 
-  - Netzwerk? 
+Business Justification:
+  - Why is this project being proposed?
+  - What problem or opportunity does it address?
+  - What are the expected benefits?
+  - What are the expected costs and effort?
+  - What are the major risks?
+
+Governance and Responsibilities:
+  - Who is the Executive (Project Sponsor)?
+  - Who will act as the Senior User(s)?
+  - Who will represent the Senior Supplier(s)?
+  - Who manages the project on a daily basis?
+  - Are roles and responsibilities clearly defined?
+
+Alignment and Authority:
+  - Is this project aligned with organizational strategy?
+  - Which program or portfolio does it support?
+  - Who has final authority over scope and funding?
+  - Are governance controls in place (e.g. stage gates)?
+
+Which Processes are Affected?:
+  - IT processes?
+  - Business processes?
+  - Other processes?
+Which Systems are Affected?:
+  - Infrastructure?
+  - Network?
   - Server?
-  - Clients? 
-  - Sind die benötigten Tools verfügbar?
-  - Gibt es Integrationsrisiken?
-Welche Personengruppen sind betroffen?:
-  - Sind alle Stakeholder eingebunden?
-  - Ist das Team ausreichend qualifiziert?
-  - Gibt es geeignete Kommunikationsmechanismen?
-  - Nutzergruppen?
-Projektmanagement:
-  - Projektplan vorhanden? 
-  - Change Register vorhanden? 
-  - Risikoregister vorhanden?
-  - Sind Sicherheits- und Compliance-Anforderungen geklärt?
+  - Clients?
+  - Are the required tools available?
+  - Are there integration risks?
+Which Groups of People are Affected?:
+  - Are all stakeholders involved?
+  - Is the team sufficiently qualified?
+  - Are there suitable communication mechanisms?
+  - User groups?
+Project Management:
+  - Project plan available?
+  - Change register available?
+  - Risk register available?
+  - Are security and compliance requirements clarified?
+    - test
+      - test2
+        - test3
+          - test4
+            - test5
+              - test6
+                - test7
+                  - test8
+                    - test9
