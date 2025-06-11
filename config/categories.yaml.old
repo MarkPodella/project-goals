@@ -1,0 +1,110 @@
+- id: TestAbfrage
+  label: Allgemeiner Test
+  prompt_type: default
+  query: >
+    query: This is a diagnostic test.  
+
+- id: overview
+  label: Allgemeiner Projektkontext
+  prompt_type: default
+  query: >
+    query: What is the purpose of this project? Why? 
+    query: What is the background of this project? Why?
+    query: What are the objectives? Benefits? 
+    query: What are goals? 
+- id: risks
+  label: Projektrisiken
+  prompt_type: default
+  query: >
+    query: What are anticipated risks? What are challenges? What impediments or obstacles are foreseen?
+    query: Summarize the current risk level and exposure.
+- id: budget
+  label: Budget und Finanzen
+  prompt_type: default
+  query: >
+    query: What budget-related financial information is available?
+    query: Do you have special information regarding risk budgets?
+- id: time
+  label: Zeitrahmen
+  prompt_type: default
+  query: >
+    query: In what timeframe shall the project, initiative be implemented?
+- id: Systems
+  label: Technik
+  prompt_type: default
+  query: >
+    query: Which systems are certainly or potentially impacted?
+    query: What concrete services, servers, etc. are mentioned?
+- id: People
+  label: Menschen    
+  prompt_type: default
+  query: >
+    query: Which people are directly or indirectly affected? Consider users, supervisors, administrators, customers, clients, etc.
+- id: Processes
+  label: Prozesses
+  prompt_type: default
+  query: >
+    query: Which common/general enterprise or corporate processes seem to be affected the most?
+- id: BusinessCase-Reasons
+  label: Project Justification (BC)
+  prompt_type: maturity
+  query: >
+    query: What are the reasons or drivers behind this project?
+    query: Is the need for action clearly and convincingly explained?
+    query: What problems or opportunities does the project address?
+
+- id: BusinessCase-Options
+  label: Options Considered (BC)
+  prompt_type: maturity
+  query: >
+    query: What solution options were considered in the business case?
+    query: Why were certain options excluded from implementation?
+    query: Is there a "do nothing" baseline option included and assessed?
+
+- id: BusinessCase-Benefits
+  label: Expected Benefits (BC)
+  prompt_type: maturity
+  query: >
+    query: What specific benefits are expected from the project?
+    query: Are the benefits described in measurable and verifiable terms?
+    query: Are there assumptions or risks related to benefit realization?
+
+- id: BusinessCase-Risks
+  label: Risks (BC)
+  prompt_type: maturity
+  query: >
+    query: What risks are identified in the business case?
+    query: How are likelihood and impact of risks assessed?
+    query: Are mitigation or avoidance strategies described?
+
+- id: BusinessCase-Costs
+  label: Estimated Costs (BC)
+  prompt_type: maturity
+  query: >
+    query: What cost items are included in the business case?
+    query: Are cost estimates realistic and comprehensive?
+    query: Are contingencies or uncertainties in cost calculation considered?
+
+- id: BusinessCase-Timescales
+  label: Timescales (BC)
+  prompt_type: maturity
+  query: >
+    query: What timelines or milestones are outlined?
+    query: Are the timescales realistic in relation to effort and benefits?
+    query: Are critical paths or dependencies identified?
+
+- id: BusinessCase-Investment_appraisal
+  label: Investment Appraisal (BC)
+  prompt_type: maturity
+  query: >
+    query: Does the business case include an NPV or ROI calculation?
+    query: Are both qualitative and quantitative aspects considered?
+    query: Is the cost-benefit ratio appropriate given the risks?
+
+- id: BusinessCase-Assumptions
+  label: Assumptions & External Factors (BC)
+  prompt_type: maturity
+  query: >
+    query: What external factors or constraints are mentioned?
+    query: What assumptions have been made, e.g. about funding or technology?
+    query: How stable or uncertain are these assumptions?
